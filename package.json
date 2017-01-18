@@ -10,7 +10,7 @@
   "description": "Brain Games",
   "main": "src/index.js",
   "bin": {
-    " ******": "dist/bin/ ******* .js",
+    " ******": "dist/bin/ ******* .js"
   },
   "babel": {
     "presets": [
