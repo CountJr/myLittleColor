@@ -7,13 +7,23 @@ engines:
       - javascript
   eslint:
     enabled: true
+    channel: "eslint-3"
+    checks:
+      import/no-unresolved:
+        enabled: false
   fixme:
     enabled: true
+ecmaFeatures:
+  modules: true
+  jsx: true
+env:
+  es6: true
+  node: true
 ratings:
   paths:
   - "**.js"
   - "**.jsx"
 exclude_paths:
-- __test__
+- __tests__/
 after_success:
 - codeclimate < ./tmp/lcov.info
