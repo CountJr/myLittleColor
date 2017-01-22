@@ -1,17 +1,14 @@
 {
-  "name": " **** ",
+  "name": "myLittleColor",
   "author": "countjr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CountJr/ **** /issues"
+    "url": "https://github.com/CountJr/myLittleColor/issues"
   },
-  "homepage": "https://github.com/CountJr/ **** #readme",
+  "homepage": "https://github.com/CountJr/myLittleColor#readme",
   "version": "0.1.12",
-  "description": "Brain Games",
+  "description": "Little color library for console with output.",
   "main": "src/index.js",
-  "bin": {
-    " ******": "dist/bin/ ******* .js"
-  },
   "babel": {
     "presets": [
       "latest",
@@ -57,10 +54,7 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublish": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CountJr/ **** .git"
-  },
+  "repository": "git+https://github.com/CountJr/myLittleColor.git",
   "jest": {
     "testRegex": "(/__tests__/.*|(\\.|/)(Test|spec))\\.jsx?$",
     "testEnvironment": "node",
