@@ -8,7 +8,7 @@
   "homepage": "https://github.com/CountJr/myLittleColor#readme",
   "version": "0.1.12",
   "description": "Little color library for console with output.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "babel": {
     "presets": [
       "latest",
