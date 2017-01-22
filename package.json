@@ -6,7 +6,7 @@
     "url": "https://github.com/CountJr/myLittleColor/issues"
   },
   "homepage": "https://github.com/CountJr/myLittleColor#readme",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Little color library for console with output.",
   "main": "dist/index.js",
   "babel": {
