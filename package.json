@@ -1,12 +1,12 @@
 {
-  "name": "myLittleColor",
+  "name": "mylittlecolor",
   "author": "countjr",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CountJr/myLittleColor/issues"
   },
   "homepage": "https://github.com/CountJr/myLittleColor#readme",
-  "version": "0.1.13",
+  "version": "0.1.2",
   "description": "Little color library for console with output.",
   "main": "dist/index.js",
   "babel": {
@@ -20,9 +20,7 @@
   },
   "dependencies": {
     "babel-cli": "^6.18.0",
-    "babel-runtime": "^6.11.6",
-    "readline-sync": "^1.4.5",
-    "postinstall-build": "^2.0.0"
+    "babel-runtime": "^6.11.6"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -53,8 +51,7 @@
     "flow-typed": "flow-typed",
     "eslint": "eslint",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "prepublish": "npm run build",
-    "postinstall": "postinstall-build --silent dist \"npm run build\""
+    "prepublish": "npm run build"
   },
   "repository": "git+https://github.com/CountJr/myLittleColor.git",
   "jest": {
